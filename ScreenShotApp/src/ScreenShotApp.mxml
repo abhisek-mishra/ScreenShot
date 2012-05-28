@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" applicationDPI="160" applicationComplete="init()" >
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<fx:Script>
+		<![CDATA[
+			import com.open.ScreenShot;
+			
+			import flashx.textLayout.formats.Float;
+			
+			
+			private var extension:ScreenShot = new ScreenShot();
+			public function init():void 
+			{ 
+				
+				hello.text="Inside Init method";
+				
+			} 
+			
+			public function clickHandler(event:Event)
+			{
+				
+				
+				var abc:String = "abhisektemp";
+				var f:Number = 1.0;
+				this.invalidateDisplayList();
+				var pngRet:int =15;
+				var jpgRet:int =25;
+				
+				pngRet = extension.getScreenShotPNG(abc);
+				
+				
+				
+				
+				jpgRet = extension.getScreenShotJPEG(abc,f);
+				
+			
+			
+				
+				
+				if(pngRet == 0 && jpgRet ==0)
+				{
+					hello.text = "Screen shot taken successfully and saved in Document Directory";
+				}
+				else
+				{
+					hello.text = "There is some error in taking screen shot";
+				}
+			}
+		]]>
+	</fx:Script>
+	
+	
+	<s:Label id="hello" x="79" y="26" width="100%">
+		
+	</s:Label>
+	
+	<s:Button id="b1" x="79" y="115" label="click" click="clickHandler(event)">
+		
+	</s:Button>
+</s:Application>

@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D6C5C77156CB12D0092AE99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6C5C76156CB12D0092AE99 /* Foundation.framework */; };
+		2D6C5C7D156CB12D0092AE99 /* ScreenShotLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C5C7C156CB12D0092AE99 /* ScreenShotLib.m */; };
+		2DC63A9F156CB9810004A607 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC63A9E156CB9810004A607 /* FlashRuntimeExtensions.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D6C5C73156CB12D0092AE99 /* libScreenShotLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libScreenShotLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6C5C76156CB12D0092AE99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D6C5C7A156CB12D0092AE99 /* ScreenShotLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenShotLib-Prefix.pch"; sourceTree = "<group>"; };
+		2D6C5C7C156CB12D0092AE99 /* ScreenShotLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenShotLib.m; sourceTree = "<group>"; };
+		2DC63A9E156CB9810004A607 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = ScreenShotLib/FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D6C5C70156CB12D0092AE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6C5C77156CB12D0092AE99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6C5C68156CB12D0092AE99 = {
+			isa = PBXGroup;
+			children = (
+				2DC63A9E156CB9810004A607 /* FlashRuntimeExtensions.h */,
+				2D6C5C78156CB12D0092AE99 /* ScreenShotLib */,
+				2D6C5C75156CB12D0092AE99 /* Frameworks */,
+				2D6C5C74156CB12D0092AE99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D6C5C74156CB12D0092AE99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C5C73156CB12D0092AE99 /* libScreenShotLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D6C5C75156CB12D0092AE99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C5C76156CB12D0092AE99 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D6C5C78156CB12D0092AE99 /* ScreenShotLib */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C5C7C156CB12D0092AE99 /* ScreenShotLib.m */,
+				2D6C5C79156CB12D0092AE99 /* Supporting Files */,
+			);
+			path = ScreenShotLib;
+			sourceTree = "<group>";
+		};
+		2D6C5C79156CB12D0092AE99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C5C7A156CB12D0092AE99 /* ScreenShotLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D6C5C71156CB12D0092AE99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC63A9F156CB9810004A607 /* FlashRuntimeExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D6C5C72156CB12D0092AE99 /* ScreenShotLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6C5C80156CB12D0092AE99 /* Build configuration list for PBXNativeTarget "ScreenShotLib" */;
+			buildPhases = (
+				2D6C5C6F156CB12D0092AE99 /* Sources */,
+				2D6C5C70156CB12D0092AE99 /* Frameworks */,
+				2D6C5C71156CB12D0092AE99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenShotLib;
+			productName = ScreenShotLib;
+			productReference = 2D6C5C73156CB12D0092AE99 /* libScreenShotLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D6C5C6A156CB12D0092AE99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2D6C5C6D156CB12D0092AE99 /* Build configuration list for PBXProject "ScreenShotLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D6C5C68156CB12D0092AE99;
+			productRefGroup = 2D6C5C74156CB12D0092AE99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D6C5C72156CB12D0092AE99 /* ScreenShotLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D6C5C6F156CB12D0092AE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6C5C7D156CB12D0092AE99 /* ScreenShotLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D6C5C7E156CB12D0092AE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D6C5C7F156CB12D0092AE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D6C5C81156CB12D0092AE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ScreenShotLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenShotLib/ScreenShotLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2D6C5C82156CB12D0092AE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ScreenShotLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenShotLib/ScreenShotLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D6C5C6D156CB12D0092AE99 /* Build configuration list for PBXProject "ScreenShotLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6C5C7E156CB12D0092AE99 /* Debug */,
+				2D6C5C7F156CB12D0092AE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6C5C80156CB12D0092AE99 /* Build configuration list for PBXNativeTarget "ScreenShotLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6C5C81156CB12D0092AE99 /* Debug */,
+				2D6C5C82156CB12D0092AE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D6C5C6A156CB12D0092AE99 /* Project object */;
+}

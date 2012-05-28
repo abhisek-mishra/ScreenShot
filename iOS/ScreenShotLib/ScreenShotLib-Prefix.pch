@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ScreenShotLib' target in the 'ScreenShotLib' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
